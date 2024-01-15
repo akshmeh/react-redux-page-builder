@@ -6,7 +6,7 @@ export default function PreviewPage(){
     // var widgetTypes=["Single Column","Two Column","Content/Img Column","Img/Content Column"]
     return(<>
         {widget.length>0?
-        <Link to="/" className="bg-red-500 text-white py-3 px-2 rounded absolute top-0 left-0 hover:text-red-800 hover:bg-white"> Back to Page Builder</Link>:""
+        <Link to="/react-redux-page-builder/" className="bg-red-500 text-white py-3 px-2 rounded absolute top-0 left-0 hover:text-red-800 hover:bg-white"> Back to Page Builder</Link>:""
         }
     <main className="text-white">
         {widget.length>0?
@@ -71,7 +71,7 @@ export default function PreviewPage(){
             }
         })  
         :
-        <div className="text-center"><h1 className="text-3xl mb-8">No widgets are added!</h1><Link to="/" className="bg-red-500 text-white py-3 px-2 rounded mt-5 hover:text-red-800 hover:bg-white">Page Builder</Link></div>
+        <div className="text-center"><h1 className="text-3xl mb-8">No widgets are added!</h1><Link to="/react-redux-page-builder/" className="bg-red-500 text-white py-3 px-2 rounded mt-5 hover:text-red-800 hover:bg-white">Page Builder</Link></div>
         }
         </main>
         </>)
