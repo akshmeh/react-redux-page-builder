@@ -13,7 +13,7 @@ export default function SideBar({handleDragStart}){
         </div>
         })}
         </div>
-       <Link to="/preview-page" className="bg-blue-200 py-3 text-center">Preview Page</Link>
+       <Link to="/react-redux-page-builder/preview-page" className="bg-blue-200 py-3 text-center">Preview Page</Link>
     </div>
     </>)
 }
