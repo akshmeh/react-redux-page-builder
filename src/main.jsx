@@ -12,13 +12,13 @@ import PreviewPage from './PreviewPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-redux-page-builder/",
     element: <App />,
   },
   {
-    path:"/preview-page",
+    path:"/react-redux-page-builder/preview-page",
     element:<PreviewPage/>,
-  }
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
